@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #4d5151;
+    text-shadow: 0 0 5px #0a0a0a;
+    text-transform: capitalize;
+}
+.gimiceale:hover{
+    color: black;
+}
+/*-------HEADER-------*/
+
+.df-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    width: auto;
+    height: auto;   
+}
+
+.df-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.df-ul li {
+    margin: 10px;
+    font-family:'Playfair Display SC', serif;;
+    color: black;
+    list-style: none;  
+}
+
+.gimiceale {
+    color: black;
+    font-family:'Playfair Display SC', serif;
+    font-weight: 100;
+    text-shadow: 0 0 5px #0a0a0a;
+    text-transform: capitalize;
+    
+}
+
+/*-------FIN DE HEADER-------*/
+
+/*-------MAIN-------*/
+.main {
+    justify-content: space-between;
+    color: black;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.imag h1 h1{ 
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 100px;
+}
+.whid-imag { 
+    width: 100px; height: 100px;
+
+}
+.jumbotron{
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+}
+.main{ 
+    display: initial;
+    width: 100px; height: auto;
+}
+.flex{
+    display: flex;
+    flex-direction: row-reverse;
+}
+/* NUEVO */
+.carousel-img-fix{
+    background-image: url(../Imagenes/Portada.JPG);
+    background-size: cover;
+    background-position: center;
+}
+.carousel-img-fix2{
+    background-image: url(../Imagenes/Portada2.JPG);
+    background-size: cover;
+    background-position: center;
+}
+.carousel-img-fix3{
+    background-image: url(../Imagenes/Portada3.JPG);
+    background-size: cover;
+    background-position: center;
+}
+.carousel-height-fix{
+    height: 388px;
+}
+@media (min-width: 816px) {
+    .carousel-height-fix{
+        height: 1000px;
+    }
+    .carousel-img-fix3{
+        background-image: url(../Imagenes/Portada3.JPG);
+        background-size: cover;
+        background-position: top;
+    }
+}
+/* FIN DE LO NUEVO */
+/*-------FIN DE MAIN-------*/
+
+/*-------FOOTER-------*/
+
+.bg-footer {
+    background-color: cadetblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+
+}
+
+.redes a i 
+{
+    font-size: 40px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.redes a i:hover {
+    transform: scale(1.5);
+    transition: all 1s ease;
+
+}
+
+/*-------FIN DE FOOTER-------*/
