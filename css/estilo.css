@@ -12,9 +12,16 @@ a {
     text-shadow: 0 0 5px #0a0a0a;
     text-transform: capitalize;
 }
-.gimiceale:hover{
+
+.gimiceale:hover {
     color: black;
 }
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+}
+
 /*-------HEADER-------*/
 
 .df-header {
@@ -24,6 +31,8 @@ a {
     background-color: cadetblue;
     flex-direction: row;
     padding: 15px;
+    flex-wrap: wrap;
+    font-size: 3.6vw;
 }
 
 .logo {
@@ -32,7 +41,21 @@ a {
     justify-content: center;
     font-size: small;
     width: auto;
-    height: auto;   
+    height: auto;
+    animation-name: moverse;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    position: relative;
+}
+
+@keyframes moverse {
+    0% {
+        left: 0%;
+    }
+
+    100% {
+        left: 90%;
+    }
 }
 
 .df-ul {
@@ -43,18 +66,19 @@ a {
 
 .df-ul li {
     margin: 10px;
-    font-family:'Playfair Display SC', serif;;
+    font-family: 'Playfair Display SC', serif;
+    ;
     color: black;
-    list-style: none;  
+    list-style: none;
 }
 
 .gimiceale {
     color: black;
-    font-family:'Playfair Display SC', serif;
+    font-family: 'Playfair Display SC', serif;
     font-weight: 100;
     text-shadow: 0 0 5px #0a0a0a;
     text-transform: capitalize;
-    
+
 }
 
 /*-------FIN DE HEADER-------*/
@@ -66,56 +90,68 @@ a {
     font-family: 'Playfair Display SC', serif;
 }
 
-.imag h1 h1{ 
+.imag h1 h1 {
     font-family: 'Playfair Display SC', serif;
     font-weight: 100px;
 }
-.whid-imag { 
-    width: 100px; height: 100px;
 
+.whid-imag {
+    width: 100px;
+    height: 100px;
 }
-.jumbotron{
+
+.jumbotron {
     background-image: none;
     background-size: cover;
     background-position: center;
 }
-.main{ 
+
+.main {
     display: initial;
-    width: 100px; height: auto;
+    width: 100px;
+    height: auto;
 }
-.flex{
+
+.flex {
     display: flex;
     flex-direction: row-reverse;
 }
+
 /* NUEVO */
-.carousel-img-fix{
+.carousel-img-fix {
     background-image: url(../Imagenes/Portada.JPG);
     background-size: cover;
     background-position: center;
 }
-.carousel-img-fix2{
+
+.carousel-img-fix2 {
     background-image: url(../Imagenes/Portada2.JPG);
     background-size: cover;
     background-position: center;
 }
-.carousel-img-fix3{
+
+.carousel-img-fix3 {
     background-image: url(../Imagenes/Portada3.JPG);
     background-size: cover;
     background-position: center;
 }
-.carousel-height-fix{
+
+.carousel-height-fix {
     height: 388px;
 }
+
 @media (min-width: 816px) {
-    .carousel-height-fix{
+    .carousel-height-fix {
         height: 1000px;
     }
-    .carousel-img-fix3{
+
+    .carousel-img-fix3 {
         background-image: url(../Imagenes/Portada3.JPG);
         background-size: cover;
         background-position: top;
     }
 }
+
 /* FIN DE LO NUEVO */
 /*-------FIN DE MAIN-------*/
 
@@ -131,8 +167,7 @@ a {
 
 }
 
-.redes a i 
-{
+.redes a i {
     font-size: 40px;
     text-align: center;
     padding: 5px 10px;
@@ -141,7 +176,29 @@ a {
 .redes a i:hover {
     transform: scale(1.5);
     transition: all 1s ease;
-
 }
 
 /*-------FIN DE FOOTER-------*/
+
+@media screen and (min-width:900px) {
+    .conteiner {
+        display: grid;
+        grid-template-rows: 9em repeat(3, 1fr) 5em;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .df-header {
+        grid-column: 1/span3;
+        font-size: 40px;
+    }
+
+    .main {
+        grid-row: 2/6;
+        grid-column: 1/4;
+    }
+
+    .bg-footer {
+        grid-row: 5/6;
+        grid-column: 1/span 3;
+    }
+}
