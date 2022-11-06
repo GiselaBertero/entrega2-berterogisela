@@ -32,21 +32,19 @@ a {
     flex-direction: row;
     padding: 15px;
     flex-wrap: wrap;
-    font-size: 3.6vw;
+    font-size: 100%;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: small;
-    width: auto;
-    height: auto;
+.logo1 {
+    width: 5em;
+    height: 5em;
+    margin: 5px;
     animation-name: moverse;
     animation-duration: 3s;
     animation-direction: alternate-reverse;
     position: relative;
 }
+
 
 @keyframes moverse {
     0% {
@@ -60,14 +58,15 @@ a {
 
 .df-ul {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+
 }
 
 .df-ul li {
     margin: 10px;
     font-family: 'Playfair Display SC', serif;
-    ;
     color: black;
     list-style: none;
 }
@@ -78,12 +77,19 @@ a {
     font-weight: 100;
     text-shadow: 0 0 5px #0a0a0a;
     text-transform: capitalize;
+}
+.ig{
+    margin-left: 400px;
 
+}
+.tex{
+    margin-left: 500px;
 }
 
 /*-------FIN DE HEADER-------*/
 
 /*-------MAIN-------*/
+/* COMIENZO DE MAIN QUIENES INDEX */
 .main {
     justify-content: space-between;
     color: black;
@@ -117,7 +123,6 @@ a {
     flex-direction: row-reverse;
 }
 
-/* NUEVO */
 .carousel-img-fix {
     background-image: url(../Imagenes/Portada.JPG);
     background-size: cover;
@@ -152,7 +157,356 @@ a {
     }
 }
 
-/* FIN DE LO NUEVO */
+/* FIN DE MAIN DE INDEX */
+/* COMIENZO DE MAIN QUIENES SOMOS */
+.somos{
+    background-color: rgb(184, 228, 229);
+}
+.imagen1 {
+    width: 50em;
+    height: 50em;
+    margin-left:  250px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.fg{
+    justify-content: space-between;
+    color: black;
+    font-family: 'Playfair Display SC', serif;
+    text-align: justify;
+    margin-left: 500px;
+    flex-wrap: wrap;
+}
+.tex1{
+    font-family: 'Playfair Display SC', serif;
+    text-align: justify;
+    margin-left: 240px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.tex2{
+    font-family: 'Playfair Display SC', serif;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+.tex3{
+    font-family: 'Playfair Display SC', serif;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+.tex4{
+    font-family: 'Playfair Display SC', serif;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+.tex5{
+    font-family: 'Playfair Display SC', serif;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+.tex6{
+    font-family: 'Playfair Display SC', serif;
+    text-align: justify;
+    margin-left: 500px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+/* FIN DE MAIN QUIENES SOMOS */
+/* COMIENZO DE MAIN CLIENTAS FELICES */
+.clientas{
+    background-color: rgb(184, 228, 229);
+}
+.ncg{
+    justify-content: space-between;
+    color: black;
+    font-family: 'Playfair Display SC', serif;
+    text-align: justify;
+    margin-left: 450px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.cg{
+    justify-content: space-between;
+    color: black;
+    font-family: 'Playfair Display SC', serif;
+    text-align: justify;
+    margin-left: 600px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.texto{
+    justify-content: space-between;
+    color: black;
+    font-family: 'Playfair Display SC', serif;
+    text-align: justify;
+    margin-left: 100px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.texto1{
+    justify-content: space-between;
+    color: black;
+    font-family: 'Playfair Display SC', serif;
+    text-align: justify;
+    margin-left: 450px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.texto2{
+    justify-content: space-between;
+    color: black;
+    font-family: 'Playfair Display SC', serif;
+    text-align: justify;
+    margin-left: 550px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.imag1 {
+    animation-name: moverse;
+    animation-duration: 4s;
+    animation-direction: normal;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 50px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.imag2{
+    animation-name: moverse;
+    animation-duration: 7s;
+    animation-direction: normal;
+    position: relative;
+    margin-left: 200px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.imag3{
+    animation-name: moverse;
+    animation-duration: 10s;
+    animation-direction: normal;
+    position: relative;
+    margin-left: 200px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.imag4{
+    animation-name: moverse;
+    animation-duration: 13s;
+    animation-direction: normal;
+    position: relative;
+    margin-left: 200px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.imag5{
+    animation-name: moverse;
+    animation-duration: 16s;
+    animation-direction: normal;
+    position: relative;
+    margin-left: 200px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.imag6{
+    animation-name: moverse;
+    animation-duration: 19s;
+    animation-direction: normal;
+    position: relative;
+    margin-left: 200px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+@keyframes moverse {
+    0% {
+        left: 0%;
+    }
+
+    100% {
+        left: 5%;
+    }
+}
+
+/* FIN DE MAIN CLIENTAS FELICES */
+/* COMIENZO DE MAIN PRODUCTOS*/
+.item{
+    height: 250px;
+    border: 5px solid #0a0a0a;
+}
+.item1{
+    background-image: url(../imagenes/7.JPG);
+    background-size: cover;
+    background-position: center;
+}
+.item2{
+    background-image: url(../imagenes/video2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item3{
+    background-image: url(../imagenes/21.JPG);
+    background-size: cover;
+    background-position: center;
+}
+.item4{
+    background-image: url(../imagenes/15.JPG);
+    background-size: cover;
+    background-position: center;
+    
+   }
+.item5{
+    background-image: url(../imagenes/TB9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item6{
+    background-image: url(../imagenes/TB11.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item7{
+    background-image: url(../imagenes/TB12.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item8{
+    background-image: url(../imagenes/Clubes\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item9{
+    background-image: url(../imagenes/Clubes\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item10{
+    background-image: url(../imagenes/Colegio\ Ipen\ C.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item11{
+    background-image: url(../imagenes/Colegio\ Montesori.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item12{
+    background-image: url(../imagenes/Colegio\ las\ Isletilla.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* FIN DE MAIN DE PRODUCTOS */
+/* COMIENZO DE MAIN CONTACTOS */
+.jumbotron1{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.348), rgba(255, 255, 255, 0.348)), url(../Imagenes/Portada.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+.contacto{
+    background-color: rgb(184, 228, 229);
+    text-align: center;
+    
+}
+.cont{ 
+    margin-left: 200px;
+    font-family: 'Playfair Display SC', serif;
+    color: black;
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.what{
+    margin-left: 200px;
+    font-family: 'Playfair Display SC', serif;
+    color: black;
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.cel{
+    margin-left: 200px;
+    font-family: 'Playfair Display SC', serif;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.rd{
+    margin-left: 200px;
+    font-family: 'Playfair Display SC', serif;
+    color: black;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+.fc{
+    margin-left: 200px;
+    font-family: 'Playfair Display SC', serif;
+    color: black;
+    display: flex;
+    justify-content: baseline;
+    padding-left: 50px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.in{
+    margin-left: 200px;
+    font-family: 'Playfair Display SC', serif;
+    color: black;
+    display: flex;
+    justify-content: baseline;
+    padding-left: 50px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.mail{
+    margin-left: 200px;
+    font-family: 'Playfair Display SC', serif;
+    color: black;
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.mail1{
+    margin-left: 200px;
+    font-family: 'Playfair Display SC', serif;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.direccion{
+    margin-left: 200px;
+    margin-top: 200px;
+    font-family: 'Playfair Display SC', serif;
+    color: black;
+    list-style: none;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 15px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+/* FIN DE MAIN DE CONTACTOS */
 /*-------FIN DE MAIN-------*/
 
 /*-------FOOTER-------*/
