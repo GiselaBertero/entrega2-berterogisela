@@ -1,0 +1,120 @@
+.clientas {
+    background-color: $nav;
+}
+
+.ncg {
+    justify-content: space-between;
+    color: hwb(0 0% 100%);
+    font-family: 'Playfair Display SC', serif;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.cg {
+    justify-content: space-between;
+    color: hwb(0 0% 100%);
+    font-family: 'Playfair Display SC', serif;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.texto {
+    justify-content: space-between;
+    color: hwb(0 0% 100%);
+    font-family: 'Playfair Display SC', serif;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.texto1 {
+    justify-content: space-between;
+    color: hwb(0 0% 100%);
+    font-family: 'Playfair Display SC', serif;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.texto2 {
+    justify-content: space-between;
+    color: hwb(0 0% 100%);
+    font-family: 'Playfair Display SC', serif;
+    text-align: justify;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.imag1 {
+    margin-left: 1em;
+    animation-name: moverse;
+    animation-duration: 4s;
+    animation-direction: normal;
+    position: relative;
+    width: 80%;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.imag2 {
+    margin-left: 1em;
+    animation-name: moverse;
+    animation-duration: 7s;
+    animation-direction: normal;
+    position: relative;
+    width: 80%;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.imag3 {
+    animation-name: moverse;
+    animation-duration: 10s;
+    animation-direction: normal;
+    position: relative;
+    width: 80%;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-left: 1em;
+}
+
+.imag4 {
+    animation-name: moverse;
+    animation-duration: 13s;
+    animation-direction: normal;
+    position: relative;
+    width: 80%;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-left: 1em;
+}
+
+.imag5 {
+    animation-name: moverse;
+    animation-duration: 16s;
+    animation-direction: normal;
+    position: relative;
+    width: 80%;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-left: 1em;
+}
+
+.imag6 {
+    animation-name: moverse;
+    animation-duration: 19s;
+    animation-direction: normal;
+    position: relative;
+    width: 80%;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-left: 1em;
+}
+
+@keyframes moverse {
+    0% {
+        left: 0%;
+    }
+
+    100% {
+        left: 5%;
+    }
+}

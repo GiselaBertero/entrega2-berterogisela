@@ -1,0 +1,68 @@
+
+.main {
+    justify-content: space-between;
+    color: hwb(0 0% 100%);
+    font-family: 'Playfair Display SC', serif;
+    display: initial;
+    width: 100px;
+    height: auto;
+}
+
+.imag h1 h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 100px;
+}
+
+.whid-imag {
+    width: 100px;
+    height: 100px;
+}
+
+.jumbotron {
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+}
+.ig{
+    text-align: center;
+
+}
+.tex{
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.carousel-img-fix {
+    background-image: url(../Imagenes/Portada.JPG);
+    @include carrusel;
+}
+
+.carousel-img-fix2 {
+    background-image: url(../Imagenes/Portada2.JPG);
+    @include carrusel;
+}
+
+.carousel-img-fix3 {
+    background-image: url(../Imagenes/Portada3.JPG);
+    @include carrusel;
+}
+
+.carousel-height-fix {
+    height: 388px;
+}
+
+@media (min-width: 816px) {
+    .carousel-height-fix {
+        height: 1000px;
+    }
+
+    .carousel-img-fix3 {
+        background-image: url(../Imagenes/Portada3.JPG);
+        background-size: cover;
+        background-position: top;
+    }
+}

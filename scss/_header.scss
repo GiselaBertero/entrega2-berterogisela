@@ -1,0 +1,71 @@
+
+.df-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $nav;
+    padding: 15px;
+    font-size: 100%;
+}
+
+.logo1 {
+    width: 5em;
+    height: 5em;
+    margin: 5px;
+    animation-name: moverse;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    position: relative;
+}
+
+
+@keyframes moverse {
+    0% {
+        left: 0%;
+    }
+
+    100% {
+        left: 90%;
+    }
+}
+
+.df-ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+    li {
+    margin: 10px;
+    font-family: 'Playfair Display SC', serif;
+    color: hwb(0 0% 100%);
+    list-style: none;
+    
+}}
+
+.gimiceale {
+    color: hwb(0 0% 100%);
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 100;
+    text-shadow: 0 0 5px hwb(0 4% 96%);
+    text-transform: capitalize;
+}
+
+
+a {
+    text-decoration: none;
+    color: hwb(180 30% 68%);
+    text-shadow: 0 0 5px hwb(0 4% 96%);
+    text-transform: capitalize;
+}
+
+.gimiceale:hover {
+    color: hwb(0 0% 100%);
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+}
